@@ -1,10 +1,80 @@
 .container {
     display: flex;
-    background-color: rgb(185, 181, 171);
-    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Montserrat',
+        sans-serif;
 }
-.flex-item {
-    background-color: chartreuse;
-    width: 200px;
-    height: 150px;
+
+.item1 {
+    background-color: yellow;
+    padding: 2px;
+}
+
+.item2 {
+    background-color: rgb(18, 207, 128);
+    color: white;
+    padding: 35px;
+}
+
+.container1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+.link_item {
+    margin: 5px;
+    padding: 10px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.container_about_me {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 231, 226);
+}
+
+.image_item1 {
+    background-color: rgb(153, 151, 148);
+    height: 200px;
+    margin: 15px;
+    font-weight: 600;
+
+}
+
+.image_item2 {
+    background-color: rgb(153, 151, 148);
+    width: 450px;
+    height: 30px;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.padding {
+    padding: 15px;
+}
+
+.h2 {
+    padding-bottom: 0px;
+    padding-top: 0pt;
+}
+
+.container_title_heading {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.footer {
+    background-color: rgba(184, 166, 166, 0.726);
 }
