@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    justify-content: space-around;
     text-align: center;
     font-family: 'Montserrat',
         sans-serif;
