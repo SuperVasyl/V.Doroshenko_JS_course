@@ -1,0 +1,52 @@
+.fonts {
+    font-family: 'Playfair Display',
+    serif;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+/* .div1 {
+    text-align: center;
+    color: rgb(202, 48, 48);
+}
+ img.PUT-YOUR-IMAGE-HERE {
+    width: 1600px;
+     height: 670px;
+     object-fit: contain;
+     opacity: 0.1;
+     margin: 0 0 70px 1px;
+     padding: 15px 329px 70px 331px;
+     background: linear-gradient(rgba(194, 97, 194, 0.8), rgba(107, 40, 170, 0.76),
+
+     }
+ img.PUT-YOUR-IMAGE-HERE {
+    width: 1600px;
+    height: 670px;
+    object-fit: contain;
+    opacity: 0.1;
+    margin: 0 0 70px 1px;
+    padding: 15px 329px 70px 331px;
+    background: linear-gradient(rgba(194, 97, 194, 0.8), rgba(107, 40, 170, 0.76),
+
+}
+/* .overlay-dont-delete- {
+    width: 1600px;
+    height: 670px;
+    margin: 0 0 70px 1px;
+    padding: 15px 329px 70px 331px;
+    opacity: 0.85;
+    background-image: linear-gradient(to top, #09052f, #311d5e);
+} */
+/* header {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: #C04848;
+    background: linear-gradient(rgba(194, 97, 194, 0.8), rgba(107, 40, 170, 0.76), 
+    /* url("https://ik.imagekit.io/ikmedia/blog/hero-image.jpeg"); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+} */

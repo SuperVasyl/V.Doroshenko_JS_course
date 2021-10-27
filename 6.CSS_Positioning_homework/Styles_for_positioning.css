@@ -1,0 +1,36 @@
+.main_part {
+    display: flex;
+    justify-content: center;
+}
+
+.quadrat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 500px;
+    height: 500px;
+}
+
+.half_circle {
+    border: solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.small_quadrat {
+    border: solid;
+    width: 50px;
+    height: 50px;
+}
