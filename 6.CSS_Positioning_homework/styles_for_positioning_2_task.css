@@ -1,59 +1,18 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
 .big_hidden_block1 {
-    border: solid;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-end;
     width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
+    height: 2000px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    /* position: absolute;
     left: 50%;
-    margin: -250px 0 0 -250px;
-}
-
-.block2 {
-    background-color: rgb(211, 16, 16);
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.big_hidden_block2 {
-    border: solid;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 350px 0 0 -250px;
-}
-
-.big_hidden_block3 {
-    border: solid;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 950px 0 0 -250px;
-}
-
-.big_hidden_block4 {
-    border: solid;
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: 1550px 0 0 -250px;
+    margin: 150px 0 0 -250px; */
 }
 
 .block1 {
@@ -63,4 +22,252 @@
     border-radius: 10%;
     margin-left: 5px;
     margin-top: 5px;
+}
+
+.block_fixed1 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 95px;
+}
+
+.block_fixed2 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 410px;
+}
+
+.block_fixed3 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: 45px;
+}
+
+.block_fixed4 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 95px;
+    margin-top: 90px;
+}
+
+.block_fixed5 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: 90px;
+}
+
+.block_fixed6 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 185px;
+    margin-top: 90px;
+}
+
+.block_fixed7 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 230px;
+    margin-top: 90px;
+}
+
+.block_fixed8 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 275px;
+    margin-top: 90px;
+}
+
+.block_fixed9 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 410px;
+    margin-top: 90px;
+}
+
+.block_fixed10 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 455px;
+    margin-top: 90px;
+}
+
+.block_fixed11 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 135px;
+}
+
+.block_fixed12 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 95px;
+    margin-top: 135px;
+}
+
+.block_fixed13 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 320px;
+    margin-top: 135px;
+}
+
+.block_fixed14 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 185px;
+    margin-top: 180px;
+}
+
+.block_fixed15 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-top: 225px;
+}
+
+.block_fixed16 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 50px;
+    margin-top: 315px;
+}
+
+.block_fixed17 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 140px;
+    margin-top: 315px;
+}
+
+.block_fixed18 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 275px;
+    margin-top: 315px;
+}
+
+.block_fixed19 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 455px;
+    margin-top: 315px;
+}
+
+.block_fixed20 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 320px;
+    margin-top: 360px;
+}
+
+.block_fixed21 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 365px;
+    margin-top: 360px;
+}
+
+.block_fixed22 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 185px;
+    margin-top: 405px;
+}
+
+.block_fixed23 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 95px;
+    margin-top: 450px;
+}
+
+.block_fixed24 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 275px;
+    margin-top: 450px;
+}
+
+.block_fixed25 {
+    position: fixed;
+    background-color: rgb(230, 26, 26);
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
+    margin-left: 410px;
+    margin-top: 450px;
 }
