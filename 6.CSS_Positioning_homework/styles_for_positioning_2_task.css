@@ -2,20 +2,17 @@
     display: flex;
     justify-content: center;
 }
-.big_hidden_block1 {
+.big_hidden_block {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-end;
     width: 500px;
     height: 2000px;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 150px;
-    /* position: absolute;
-    left: 50%;
-    margin: 150px 0 0 -250px; */
 }
 
-.block1 {
+.block {
     background-color: black;
     width: 40px;
     height: 40px;
@@ -24,250 +21,136 @@
     margin-top: 5px;
 }
 
-.block_fixed1 {
+.visibility {
+    visibility: hidden;
+}
+
+.block_fixed {
     position: fixed;
-    background-color: rgb(230, 26, 26);
+    background-color: rgb(134, 125, 125);
     width: 40px;
     height: 40px;
     border-radius: 10%;
+}
+.b1 {
     margin-left: 95px;
 }
 
-.block_fixed2 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b2 {
     margin-left: 410px;
 }
 
-.block_fixed3 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b3 {
     margin-left: 140px;
     margin-top: 45px;
 }
 
-.block_fixed4 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b4 {
     margin-left: 95px;
     margin-top: 90px;
 }
 
-.block_fixed5 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b5 {
     margin-left: 140px;
     margin-top: 90px;
 }
 
-.block_fixed6 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b6 {
     margin-left: 185px;
     margin-top: 90px;
 }
 
-.block_fixed7 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b7 {
     margin-left: 230px;
     margin-top: 90px;
 }
 
-.block_fixed8 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b8 {
     margin-left: 275px;
     margin-top: 90px;
 }
 
-.block_fixed9 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b9 {
     margin-left: 410px;
     margin-top: 90px;
 }
 
-.block_fixed10 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b10 {
     margin-left: 455px;
     margin-top: 90px;
 }
 
-.block_fixed11 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b11 {
     margin-left: 50px;
     margin-top: 135px;
 }
 
-.block_fixed12 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b12 {
     margin-left: 95px;
     margin-top: 135px;
 }
 
-.block_fixed13 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b13 {
     margin-left: 320px;
     margin-top: 135px;
 }
 
-.block_fixed14 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b14 {
     margin-left: 185px;
     margin-top: 180px;
 }
 
-.block_fixed15 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b15 {
     margin-left: 5px;
     margin-top: 225px;
 }
 
-.block_fixed16 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b16 {
     margin-left: 50px;
     margin-top: 315px;
 }
 
-.block_fixed17 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b17 {
     margin-left: 140px;
     margin-top: 315px;
 }
 
-.block_fixed18 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b18 {
     margin-left: 275px;
     margin-top: 315px;
 }
 
-.block_fixed19 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b19 {
     margin-left: 455px;
     margin-top: 315px;
 }
 
-.block_fixed20 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b20 {
     margin-left: 320px;
     margin-top: 360px;
 }
 
-.block_fixed21 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b21 {
     margin-left: 365px;
     margin-top: 360px;
 }
 
-.block_fixed22 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b22 {
     margin-left: 185px;
     margin-top: 405px;
 }
 
-.block_fixed23 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b23 {
     margin-left: 95px;
     margin-top: 450px;
 }
 
-.block_fixed24 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b24 {
     margin-left: 275px;
     margin-top: 450px;
 }
 
-.block_fixed25 {
-    position: fixed;
-    background-color: rgb(230, 26, 26);
-    width: 40px;
-    height: 40px;
-    border-radius: 10%;
+.b25 {
     margin-left: 410px;
     margin-top: 450px;
 }
