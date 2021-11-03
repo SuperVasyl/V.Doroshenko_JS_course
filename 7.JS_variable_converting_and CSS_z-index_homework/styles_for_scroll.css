@@ -1,0 +1,20 @@
+.gradient {
+    background: linear-gradient(to right,
+        rgb(43, 80, 80),
+        rgb(72, 152, 155));
+    color: white;
+    font-size: 13px;
+}
+
+/* .block {
+    width: 200px;
+    height: 20px;
+    background-color: yellow;
+} */
+
+.paragraph {
+    background-color: rgb(149, 226, 15);
+    color: rgb(149, 226, 15);
+    position: sticky;
+    top: 15px;
+}
