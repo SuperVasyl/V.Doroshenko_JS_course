@@ -5,10 +5,19 @@
 }
 
 .cube {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     position: absolute;
     box-shadow: 1px 1px 1px black;
+    transition: all 1s;
+}
+
+.cube:hover {
+    width: 260px;
+    height: 260px;
+    transition: all 1s;
+    z-index: 1;
+    box-shadow: 8px 8px 8px blanchedalmond;
 }
 
 .skyblue {
@@ -17,84 +26,84 @@
 
 .darkslategray {
     background-color: rgb(35, 87, 87);
-    margin-block-start: 2%;
-    margin-inline-start: 2%;
+    margin-block-start: 1%;
+    margin-inline-start: 1%;
 }
 
 .dimgray {
     background-color: dimgray;
-    margin-block-start: 4%;
-    margin-inline-start: 4%;
+    margin-block-start: 2%;
+    margin-inline-start: 2%;
 }
 
 .darkgray {
     background-color: rgb(63, 65, 66);
-    margin-block-start: 6%;
-    margin-inline-start: 6%;
+    margin-block-start: 3%;
+    margin-inline-start: 3%;
 }
 
 .lightgray {
     background-color: rgb(203, 212, 220);
-    margin-block-start: 8%;
-    margin-inline-start: 8%;
+    margin-block-start: 4%;
+    margin-inline-start: 4%;
 }
 
 .steelblue {
     background-color: rgb(51, 132, 204);
-    margin-block-start: 10%;
-    margin-inline-start: 10%;
+    margin-block-start: 5%;
+    margin-inline-start: 5%;
 }
 
 .darkolivegreen {
     background-color: rgb(61, 109, 47);
-    margin-block-start: 12%;
-    margin-inline-start: 12%;
+    margin-block-start: 6%;
+    margin-inline-start: 6%;
 }
 
 .black {
     background-color: rgb(50, 7, 39);
-    margin-block-start: 14%;
-    margin-inline-start: 14%;
+    margin-block-start: 7%;
+    margin-inline-start: 7%;
 }
 
 .yellowgreen {
     background-color: rgb(155, 178, 29);
-    margin-block-start: 16%;
-    margin-inline-start: 16%;
+    margin-block-start: 8%;
+    margin-inline-start: 8%;
 }
 
 .darkgreen {
     background-color: rgb(40, 96, 53);
-    margin-block-start: 18%;
-    margin-inline-start: 18%;
+    margin-block-start: 9%;
+    margin-inline-start: 9%;
 }
 
 .peru {
     background-color: rgb(189, 166, 60);
-    margin-block-start: 20%;
-    margin-inline-start: 20%;
+    margin-block-start: 10%;
+    margin-inline-start: 10%;
 }
 
 .darkblue {
     background-color: rgb(37, 96, 115);
-    margin-block-start: 22%;
-    margin-inline-start: 22%;
+    margin-block-start: 11%;
+    margin-inline-start: 11%;
 }
 
 .gray {
     background-color: rgb(79, 80, 68);
-    margin-block-start: 24%;
-    margin-inline-start: 24%;
+    margin-block-start: 12%;
+    margin-inline-start: 12%;
 }
 
 .rosybrown {
     background-color: rgb(197, 143, 143);
-    margin-block-start: 26%;
-    margin-inline-start: 26%;
+    margin-block-start: 13%;
+    margin-inline-start: 13%;
 }
 
 .forestgreen {
     background-color: rgb(31, 128, 37);
-    margin-block-start: 28%;
-    margin-inline-start: 28%;
+    margin-block-start: 14%;
+    margin-inline-start: 14%;
 }
