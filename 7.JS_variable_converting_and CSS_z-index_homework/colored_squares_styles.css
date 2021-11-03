@@ -1,0 +1,100 @@
+.linear-gradient {
+    background: linear-gradient(to right,
+            rgb(43, 80, 80),
+            rgb(72, 152, 155));
+}
+
+.cube {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    box-shadow: 1px 1px 1px black;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.darkslategray {
+    background-color: rgb(35, 87, 87);
+    margin-block-start: 2%;
+    margin-inline-start: 2%;
+}
+
+.dimgray {
+    background-color: dimgray;
+    margin-block-start: 4%;
+    margin-inline-start: 4%;
+}
+
+.darkgray {
+    background-color: rgb(63, 65, 66);
+    margin-block-start: 6%;
+    margin-inline-start: 6%;
+}
+
+.lightgray {
+    background-color: rgb(203, 212, 220);
+    margin-block-start: 8%;
+    margin-inline-start: 8%;
+}
+
+.steelblue {
+    background-color: rgb(51, 132, 204);
+    margin-block-start: 10%;
+    margin-inline-start: 10%;
+}
+
+.darkolivegreen {
+    background-color: rgb(61, 109, 47);
+    margin-block-start: 12%;
+    margin-inline-start: 12%;
+}
+
+.black {
+    background-color: rgb(50, 7, 39);
+    margin-block-start: 14%;
+    margin-inline-start: 14%;
+}
+
+.yellowgreen {
+    background-color: rgb(155, 178, 29);
+    margin-block-start: 16%;
+    margin-inline-start: 16%;
+}
+
+.darkgreen {
+    background-color: rgb(40, 96, 53);
+    margin-block-start: 18%;
+    margin-inline-start: 18%;
+}
+
+.peru {
+    background-color: rgb(189, 166, 60);
+    margin-block-start: 20%;
+    margin-inline-start: 20%;
+}
+
+.darkblue {
+    background-color: rgb(37, 96, 115);
+    margin-block-start: 22%;
+    margin-inline-start: 22%;
+}
+
+.gray {
+    background-color: rgb(79, 80, 68);
+    margin-block-start: 24%;
+    margin-inline-start: 24%;
+}
+
+.rosybrown {
+    background-color: rgb(197, 143, 143);
+    margin-block-start: 26%;
+    margin-inline-start: 26%;
+}
+
+.forestgreen {
+    background-color: rgb(31, 128, 37);
+    margin-block-start: 28%;
+    margin-inline-start: 28%;
+}
