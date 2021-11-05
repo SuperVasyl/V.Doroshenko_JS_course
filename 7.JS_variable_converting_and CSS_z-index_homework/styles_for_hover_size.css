@@ -1,0 +1,37 @@
+.main {
+    background: linear-gradient(to right,
+        rgb(43, 80, 80),
+        rgb(72, 152, 155));
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.solution {
+    margin-right: 30px;
+}
+
+.block {
+    width: 150px;
+    height: 50px;
+    border: solid;
+}
+
+.block:hover {
+    border: 8px solid;
+    margin-bottom: -11px;
+    margin-right: -11px;
+}
+
+.block2 {
+    width: 150px;
+    height: 50px;
+    border: solid;
+    box-shadow: 10px 20px white;
+}
+
+.block2:hover {
+    border: 8px solid;
+    box-shadow: none;
+}
