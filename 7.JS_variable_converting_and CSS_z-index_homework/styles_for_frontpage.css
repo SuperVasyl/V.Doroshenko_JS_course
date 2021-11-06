@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+.main {
+    background: linear-gradient(to right,
+            rgb(43, 80, 80),
+            rgb(72, 152, 155));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 30px;
+    color: white;
+    border: solid green;
+    margin: 20px;
+    width: 70px;
+    border-radius: 35%;
+    background-color: green;
+    box-shadow: 4px 4px 3px 1px white;
+}
