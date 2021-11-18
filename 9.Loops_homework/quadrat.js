@@ -1,9 +1,7 @@
 let result = ''
 
-for (i = 0; i < 10; i++) {
-    result = result + '*' + ' ' + ' '
-}
-
-for (let counter = 1; counter <= 10; counter++) {
-    console.log(result);
-}
+for (i = 1; i <= 10; i++) {
+        result +='*'
+        .repeat(10) +'\n'
+    }
+console.log(result)
