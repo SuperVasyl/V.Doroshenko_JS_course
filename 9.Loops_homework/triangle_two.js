@@ -1,7 +1,11 @@
-let result = ''
+let height = 10;
 
-for (i = 10; i > 0; i--) {
-    result += '*'
-    .repeat(i)+'\n'
+let string = '';
+
+for (i = 0; i < height; i++) {
+    for (j = 0; j < height - i; j++) {
+        string += '*'
+    }
+    string += '\n'
 }
-console.log(result)
+console.log(string)
