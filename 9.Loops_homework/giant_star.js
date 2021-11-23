@@ -1,18 +1,46 @@
-let height = 34;
-
+let fullHeight = 34;
 let line = '';
-let data = [1, 3, 5, 7, 9, 11, 13, 15, 17 , 19 , 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67]
 
-for (i = 1; i <= height; i++) {
-    for (j = 0; j <= height - i; j++) {
-        line += '0'
+h = (fullHeight / 3);
+
+for (y = 1; y <= h; y++) {
+    for (j = 0; j <= fullHeight - y; j++) {
+        line += ' '
     }
-    for (k = 0; k < 2 * i - 1; k++) {
+    for (x = 1; x <= y * 2 - 1; x++) {
         line += '*'
     }
     line += '\n'
 }
 
-console.log(line)
+for (y = 0; y < h; y++) {
+    for (j = 0; j < y; j++) {
+        line += ' ';
+    }
+    for (x = (fullHeight - y) * 2 - 1; x > 0; x--) {
+        line += '*'
+    }
+    line += '\n'
+}
 
-// 2 * i - 1
+
+for (y = h; y > 0; y--) {
+    for (j = 1; j < y; j++) {
+        line += ' '
+    }
+    for (x = ((fullHeight - y) + 1) * 2 - 2; x > 0; x--) {
+        line += '*'
+    }
+    line += '\n';
+}
+
+for (y = h; y > 0; y--) {
+    for (j = 0; j < fullHeight - y; j++) {
+        line += ' ';
+    }
+    for (x = y * 2 - 1; x > 3; x--) {
+        line += '*'
+    }
+    line += '\n'
+}
+console.log(line)
