@@ -16,3 +16,24 @@ function sayYes() {
 function sayNo() {
     alert('Noooo!');
 }
+
+//function with expression
+
+// let choiseWithExpression = function () {
+//     let choiseExpr = confirm('Say yes or no, please!');
+//     if (choiseExpr) {
+//         sayYes();
+//     } else {
+//         sayNo();
+//     }
+// }
+
+// choiseWithExpression()
+
+// function sayYes() {
+//     alert('Yes!!!');
+// }
+
+// function sayNo() {
+//     alert('Noooo!');
+// }
