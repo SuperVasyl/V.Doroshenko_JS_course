@@ -5,5 +5,5 @@ function getRandomNumber() {
     let randNumber = prompt('Guess number between 1 and 10, please', 10)
     if (randNumber == num) {
         alert('Matched');
-    } else alert('Not mathed. The number was =>' + num)
+    } else alert(`Not mathed. The number was => ${num}`)
 }
