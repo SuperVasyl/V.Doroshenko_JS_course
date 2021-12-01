@@ -7,11 +7,11 @@ html {
     background: linear-gradient(to right,
             rgb(43, 80, 80),
             rgb(72, 152, 155));
-    width: 100%;
 }
 
 .button {
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .main_block {
@@ -23,7 +23,7 @@ html {
 }
 
 .inner_block {
-    height: 30px;
+    height: 40px;
     width: 110px;
     border: solid 0.25rem;
 }
