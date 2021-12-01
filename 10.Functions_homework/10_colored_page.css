@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+.main {
+    background: linear-gradient(to right,
+            rgb(43, 80, 80),
+            rgb(72, 152, 155));
+    width: 100%;
+}
+
+.button {
+    box-sizing: border-box;
+}
+
+.main_block {
+    height: 150px;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.inner_block {
+    height: 30px;
+    width: 110px;
+    border: solid 0.25rem;
+}
