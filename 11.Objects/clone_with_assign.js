@@ -32,3 +32,13 @@ let user = {
     },
     colorOfEyes: 'brown'
 }
+
+cloning()
+
+function cloning () {
+    let copyUser = Object.assign({}, user);
+console.log(copyUser);
+}
+
+// let copyUser = Object.assign({}, user);
+// console.log(copyUser);
