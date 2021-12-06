@@ -1,16 +1,10 @@
-html {
+/* html {
     height: 100%;
     display: flex;
-}
-
-.main {
-    background: linear-gradient(to right,
-            rgb(43, 80, 80),
-            rgb(72, 152, 155));
-}
+} */
 
 .button {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     cursor: pointer;
 }
 
