@@ -11,23 +11,11 @@ const nameAndAge = [
     // ['age', 16]
 ];
 
-console.table(nameAndAge)
-
+console.table(nameAndAge);
 
 let getNameAndAge = () => {
-    for (let i = 0; i < nameAndAge.length/2; i++) {
-        const obj = Object.fromEntries(nameAndAge);
-        console.log(obj);
-    }
+    const obj = Object.fromEntries(nameAndAge);
+    console.log(obj);
 }
 
-// const obj = Object.fromEntries(nameAndAge);
-// console.log(obj);
-
-
-// function clonUser() {
-//     for (let objectKey in user) {
-//         console.log(`${objectKey}: ${user[objectKey]}`);
-//     }
-// }
-
+getNameAndAge();
