@@ -23,3 +23,6 @@ const DB = {
     },
 };
 
+const getPostItem = useCollection('posts');
+
+getPostItem('posts_1')
