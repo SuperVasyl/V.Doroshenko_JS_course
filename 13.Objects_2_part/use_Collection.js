@@ -23,19 +23,56 @@ const DB = {
   },
 };
 
-function useCollectionInfo(generalTag) {
-    const data = DB.collection;
-    return function (specificTag) {
-        const info = data[generalTag][specificTag];
-        console.log(info);
-    }
-}
+console.log(DB);
 
-const getPostItem = useCollectionInfo('posts');
+//function which takes object by properties
+function useCollection(generalTag) {
+  const data = DB.collection;
+  return function (specificTag) {
+    const info = data[generalTag][specificTag];
+    console.log(info);
+  };
+}
+const getPostItem = useCollection('posts');
 getPostItem('posts_1');
 
+// Methods in  DB
 
-// https://www.youtube.com/watch?v=r2S0zJVAQZs&list=PLvaxnpPm_Z5LFxlTOETFpWAjxWueMiMb3&index=10&t=2699s
-// https://docs.google.com/document/d/1shnEZLFrR57vzeCE_tUkjQpTZsW3yLJW/edit
-// http://old.code.mu/tasks/javascript/base/osnovy-yazyka-javascript-dlya-novichkov.html
-// http://old.code.mu/tasks/javascript/context/prodvinutaya-rabota-s-kontekstom-v-javascript.html
+//.get
+DB.get = function (mainTag, tag) {
+  const additionalInfo = DB.collection[mainTag][tag];
+  const name = additionalInfo['name'];
+  const text = additionalInfo['text'];
+  console.log(`
+    I get this object info:
+    id: ${tag},
+    name: ${name},
+    text: ${text}
+    `);
+};
+
+DB.get('posts', 'posts_1');
+
+//.deleteOne
+DB.deleteOne = function (bigTag, tagForDelete) {
+  delete DB.collection[bigTag][tagForDelete];
+};
+
+DB.deleteOne('comments', 'comment_1');
+
+//.create
+DB.create = function (directory, newObject) {
+  DB.collection[directory][newObject] = {
+    name: 'some text',
+    text: 'also some text',
+  };
+};
+
+DB.create('posts', 'posts_3');
+
+//.edit
+DB.edit = function (firstMainTag, lastMainTag, tag, changes) {
+  DB.collection[firstMainTag][lastMainTag][tag] = changes;
+};
+
+DB.edit('posts', 'posts_1', 'name', 'New weird name');
