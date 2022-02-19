@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<script src="index.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="info">
+        <p>Please, click the button to get your coordinates.</p>
+        <button onclick="getLocation()">Find your location</button>
+        <h4 id="demo"></h4>
+
+        <!-- <h4 id="txt1"></h4> -->
+      </div>
+      <div class="upper">
+        <div class="inner">
+          <h2 id="main_info">Lviv</h2>
+        </div>
+        <div class="dateInfo">
+          <h2 id="date">Date</h2>
+        </div>
+        <div class="inner">
+					<div class="icon" id="small_icon">Icon</div>
+					<img src="./images/2682812_cloud_coudy_day_fog_mist_icon.png" alt="Sun and clouds" width="70" height="70">
+					<img src="https://cdn4.iconfinder.com/data/icons/the-weather-is-nice-today/64/weather_3-512.png"
+						alt="Sun" width="70" height="70">
+						<!-- https://www.youtube.com/watch?v=1YjybCS4B2U -->
+						<!-- https://www.iconfinder.com/weather-icons?price=free -->
+					<div>Desc</div>
+        </div>
+        <div class="inner" id="time">Other info
+					<h4 id="txt1">Icon and description</h4>
+				</div>
+      </div>
+      <div class="lower"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
