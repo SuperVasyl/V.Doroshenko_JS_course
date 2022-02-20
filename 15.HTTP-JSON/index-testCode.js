@@ -43,10 +43,10 @@ const getUsers = async () => {
 
 getUsers();
 
-// https://api.openweathermap.org/data/2.5/weather?q=Lviv&appid=7afa4af8ea55841fc2f99213efd33f54 
+// https://api.openweathermap.org/data/2.5/weather?q=Lviv&appid={}
 //dayly forecast for Lviv
 
-// https://api.openweathermap.org/data/2.5/weather?q=Lviv&units=metric&lang=ua&appid=7afa4af8ea55841fc2f99213efd33f54 
+// https://api.openweathermap.org/data/2.5/weather?q=Lviv&units=metric&lang=ua&appid={}
 //forecast with ucrainian languages and metric temperature
 
 // https://www.youtube.com/watch?v=8OgQdlQzA-U&list=PLvaxnpPm_Z5LFxlTOETFpWAjxWueMiMb3&index=8
