@@ -270,7 +270,7 @@ const countryList = [
 // };
 
 // let baseUrl =
-//   'https://api.openweathermap.org/data/2.5/weather?q=Lviv&appid=7afa4af8ea55841fc2f99213efd33f54';
+//   'https://api.openweathermap.org/data/2.5/weather?q=Lviv&appid={}';
 
 // const getWeather = async () => {
 // 	let url = baseUrl;
@@ -302,7 +302,7 @@ function showPosition(position) {
   //   ${lat}
   //   <br> Longitude:
   //   ${long}`;
-  let currentLocation = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&lang=ua&appid=7afa4af8ea55841fc2f99213efd33f54`;
+  let currentLocation = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=metric&lang=ua&appid={}`;
   console.log(currentLocation);
   // weatherInfo.innerHTML = `this is weather ${currentLocation}`;
   const getCurrentWeather = async () => {
@@ -393,10 +393,10 @@ function showPosition(position) {
 // console.log(coordinates);
 
 // let currentLocation =
-//   'https://api.openweathermap.org/data/2.5/weather?lat=50.0105216&lon=28.6294016&appid=7afa4af8ea55841fc2f99213efd33f54';
+//   'https://api.openweathermap.org/data/2.5/weather?lat=50.0105216&lon=28.6294016&appid={}';
 
 // let currentLocation =
-//     `https://api.openweathermap.org/data/2.5/weather?lat=${latit}&lon=${longit}&appid=7afa4af8ea55841fc2f99213efd33f54`;
+//     `https://api.openweathermap.org/data/2.5/weather?lat=${latit}&lon=${longit}&appid={}`;
 
 // const getCurrentWeather = async () => {
 //   let url2 = currentLocation;
